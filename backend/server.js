@@ -51,7 +51,7 @@ app.use(errorHandler);
 
 mongoose.set("strictQuery", false);
 mongoose.connect(
-  "mongodb://localhost:27017/kabir's-diary",
+  "mongodb+srv://kabir_hasan:DITSMg3164D4OLX3@cluster0.l3ebd.mongodb.net/blog-website?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
