@@ -15,7 +15,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Routes Section
-
+app.get('/',(req,res)=>{
+  res.send('The app is working!')
+})
 // User - Registration - Login API
 app.use("/auth", authRoutes);
 
